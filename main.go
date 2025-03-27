@@ -83,13 +83,8 @@ func main() {
 		os.Exit(0)
 
 	}
-	if proxy != "" {
-		fmt.Println(lib.Green("[+] Using proxy: " + proxy))
-		lib.GetStart(u, n, a, t, debug, proxy)
-		lib.PostStart(u, n, a, t, debug, proxy)
-	} else {
-		lib.GetStart(u, n, a, t, debug)
-		lib.PostStart(u, n, a, t, debug)
-	}
+
+	lib.GetStart(u, n, a, t, debug)
+	lib.PostStart(u, n, a, t, debug)
 
 }
