@@ -54,7 +54,7 @@ NoAuth  -n /login -a /admin/adduser -u [http://localhost:8080/](http://localhost
 ![](image/image_rOjvXpoojL.png)
 
 
-例：NoAuth -list  -a /upload/uploadFile -n /login/index.html ，动态生成字典，自己可以用burp跑一遍
+动态字典：NoAuth -list  -a /upload/uploadFile -n /login/index.html ，动态生成字典，自己可以用burp跑一遍
 
 <img width="1174" alt="image" src="https://github.com/user-attachments/assets/a6f63247-4ba9-4f9a-82bf-1ebcd3164db9" />
 
