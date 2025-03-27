@@ -1,7 +1,10 @@
 # NoAuth
+2025.327 
+动态字典生成单独抽出来了先对付着用？
 
 2024.9.24
-有空改下，最开始的目的是自己总审代码所以就简单辅助下白盒啥的。。。有空把bypass规则与判断规则完善下，再加下代理功能啥的
+有空改下，
+最开始的目的是自己总审代码所以就简单辅助下白盒啥的。。。有空把bypass规则与判断规则完善下，再加下代理功能啥的
 
 
 
@@ -49,3 +52,10 @@ NoAuth -n 不需要鉴权的接口地址(如/login、/register、/index.jsp、/i
 NoAuth  -n /login -a /admin/adduser -u [http://localhost:8080/](http://localhost:8080/ "http://localhost:8080/") -debug 1 ，添加 -debug 1 参数可查看所有请求 ：
 
 ![](image/image_rOjvXpoojL.png)
+
+
+例：NoAuth -list  -a /upload/uploadFile -n /login/index.html ，动态生成字典，自己可以用burp跑一遍
+
+<img width="1174" alt="image" src="https://github.com/user-attachments/assets/a6f63247-4ba9-4f9a-82bf-1ebcd3164db9" />
+
+
