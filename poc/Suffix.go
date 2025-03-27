@@ -20,6 +20,9 @@ func GenerateURLs(baseURL string) []string {
 		"..;/",
 		"/12123123123123.jsp",
 		";/12123123123123.jsp",
+		"/12123123123123.js",
+		";/12123123123123.js",
+		";123.jsp",
 	}
 
 	urls := make([]string, len(suffixes))
