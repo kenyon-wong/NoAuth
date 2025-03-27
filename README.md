@@ -15,7 +15,7 @@
 ```bash
 
 
-Usage:  [-unat] [-u url] [-n interface without authentication] [-a interface An interface that requires authentication] [-t thread] [-debug choose start debug] [-h help]
+Usage:  [-lunat] [-list create dict ] [-n interface without authentication] [-a interface An interface that requires authentication] [-t thread] [-debug choose start debug] [-h help]
 
 Options:
   -a string
@@ -49,7 +49,7 @@ NoAuth  -n /login -a /admin/adduser -u [http://localhost:8080/](http://localhost
 
 ![](image/image_rOjvXpoojL.png)
 
-动态字典：NoAuth -list  -a /upload/uploadFile -n /login/index.html ，动态生成字典，自己可以用burp跑一遍
+动态字典：NoAuth -list  -a /upload/uploadFile -n /login/index.html ，动态生成字典，自己可以搭配burp跑一遍
 
 <img width="778" alt="image" src="https://github.com/user-attachments/assets/975e89f3-d440-4024-a094-f491d8debd33" />
 
