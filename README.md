@@ -47,12 +47,10 @@ NoAuth -n 不需要鉴权的接口地址(如/login、/register、/index.jsp、/i
 
 NoAuth  -n /login -a /admin/adduser -u [http://localhost:8080/](http://localhost:8080/ "http://localhost:8080/") -debug 1 ，添加 -debug 1 参数可查看所有请求 ：
 
-<img width="778" alt="image" src="https://github.com/user-attachments/assets/975e89f3-d440-4024-a094-f491d8debd33" />
-
-
+![](image/image_rOjvXpoojL.png)
 
 动态字典：NoAuth -list  -a /upload/uploadFile -n /login/index.html ，动态生成字典，自己可以用burp跑一遍
 
-<img width="1174" alt="image" src="https://github.com/user-attachments/assets/a6f63247-4ba9-4f9a-82bf-1ebcd3164db9" />
+<img width="778" alt="image" src="https://github.com/user-attachments/assets/975e89f3-d440-4024-a094-f491d8debd33" />
 
 
